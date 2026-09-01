@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include <string>
+#include <iostream>
 
 class Hero {
 private:
@@ -10,22 +11,17 @@ private:
 	std::string name;
 
 public:
-	Hero(std::string n) {
-		strength = ((std::rand() % 100) + 1);
-		courage = ((std::rand() % 100) + 1);
-		name = n;
-	}
+	// Constructor
+	Hero(std::string n);
 
-	int getStrength() {
-		return strength;
-	}
+	// Methods
+	void attendTraining(int time);
+	void attendTherapy();
 
-	int getCourage() {
-		return courage;
-	}
-
-	void setCourage(int c) {
-		courage = c;
-	}
+	// Getters & Setters
+	std::string getName();
+	int getStrength();
+	int getCourage();
+	void setCourage(int c);
 
 };
