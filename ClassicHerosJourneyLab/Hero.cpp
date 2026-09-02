@@ -9,13 +9,13 @@ Hero::Hero(std::string n) {
 void Hero::attendTraining(int time) {
 	int strengthIncrease = (time * 3);
 	strength += strengthIncrease;
-	std::cout << "You gained " << strengthIncrease << "strength!\n";
+	std::cout << getName() << " gained " << strengthIncrease << " strength!\n";
 }
 
 void Hero::attendTherapy() {
 	int courageIncrease = ((std::rand() % 10) + 1);
 	courage += courageIncrease;
-	std::cout << "You gained " << courageIncrease << "courage!\n";
+	std::cout << getName() << " gained " << courageIncrease << " courage!\n";
 }
 
 std::string Hero::getName() {

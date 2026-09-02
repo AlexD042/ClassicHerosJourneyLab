@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ClassicHerosJourneyLab/ClassicHerosJourneyLab.vcxproj" />
+  <Project Path="ClassicHerosJourneyLab/ClassicHerosJourneyLab.vcxproj" Id="a1b28514-31c7-4834-a80d-2fbcdb37da27" />
 </Solution>
